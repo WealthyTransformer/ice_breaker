@@ -4,7 +4,7 @@ from langchain.agents import tool
 
 class CustomSerpAPIWrapper(SerpAPIWrapper):
     def __init__(self):
-        super(CustomSerpAPIWrapper,self).__init__()
+        super(CustomSerpAPIWrapper, self).__init__()
 
     @staticmethod
     def _process_response(res: dict) -> str:
@@ -36,6 +36,7 @@ class CustomSerpAPIWrapper(SerpAPIWrapper):
         else:
             toret = "No good search result found"
         return toret
+
 
 @tool
 def get_profile_url(name: str):

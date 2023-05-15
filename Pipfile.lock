@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "bbac4dd89ca1ec2b4bb40e84e291a2f486102b1d7b3a4b11bc9b3bebf1426a80"
+            "sha256": "c1410cf99e379f81f6fcda23920a185b863a6405c675d57eaf0e89658a5ab9d1"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -359,11 +359,11 @@
         },
         "langchain": {
             "hashes": [
-                "sha256:32417cc38ba211d46c3e97f29cb8124175fe46047bda14a4c634351b005acd21",
-                "sha256:fb1e90eb0aeef9c574e6683586bfbfed1974e187dd8261b571cb33888c35a92e"
+                "sha256:492ca88615eb850ef208966e18ace5dcfd55b0d3d4e14f28319da0b00f90e7eb",
+                "sha256:dacd8e33daf47d0a523298aa35ed1409cc1ae4a1fcab8480e98401158b9d6c39"
             ],
             "index": "pypi",
-            "version": "==0.0.166"
+            "version": "==0.0.169"
         },
         "marshmallow": {
             "hashes": [
@@ -538,6 +538,14 @@
             "markers": "python_version >= '3.8'",
             "version": "==1.24.3"
         },
+        "oauthlib": {
+            "hashes": [
+                "sha256:8139f29aac13e25d502680e9e19963e83f16838d48a0d71c287fe40e7067fbca",
+                "sha256:9859c40929662bec5d64f34d01c99e093149682a3f38915dc0655d5a633dd918"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==3.2.2"
+        },
         "openai": {
             "hashes": [
                 "sha256:1f07ed06f1cfc6c25126107193726fe4cf476edcc4e1485cd9eb708f068f2606",
@@ -674,6 +682,14 @@
             "markers": "python_version >= '3.7'",
             "version": "==2.30.0"
         },
+        "requests-oauthlib": {
+            "hashes": [
+                "sha256:2577c501a2fb8d05a304c09d090d6e47c306fef15809d102b327cf8364bddab5",
+                "sha256:75beac4a47881eeb94d5ea5d6ad31ef88856affe2332b9aafb52c6452ccf0d7a"
+            ],
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
+            "version": "==1.3.1"
+        },
         "sqlalchemy": {
             "hashes": [
                 "sha256:0aa2cbde85a6eab9263ab480f19e8882d022d30ebcdc14d69e6a8d7c07b0a871",
@@ -736,6 +752,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==4.65.0"
+        },
+        "tweepy": {
+            "hashes": [
+                "sha256:1f9f1707d6972de6cff6c5fd90dfe6a449cd2e0d70bd40043ffab01e07a06c8c",
+                "sha256:db6d3844ccc0c6d27f339f12ba8acc89912a961da513c1ae50fa2be502a56afb"
+            ],
+            "index": "pypi",
+            "version": "==4.14.0"
         },
         "typing-extensions": {
             "hashes": [
